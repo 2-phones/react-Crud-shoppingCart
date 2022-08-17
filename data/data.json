@@ -1,0 +1,69 @@
+{
+  "Items": [
+    {
+      "id": 1,
+      "title": "Nike",
+      "name": "Off-White x Air Jordan 1 Retro High OG 'Chicago",
+      "price": "256500",
+      "src": "https://www.kickbulk.co/image/cache/catalog/JORDAN-1/AA3834-101/NIKE-OFF-WHITE-X-AIR-JORDAN-1-CHICAGO-MENS-GS-AA3834-101-00-1100x1100.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Adidas",
+      "name": "Yeezy Boost 350 V2 Core Black Green",
+      "price": "214000",
+      "src": "https://www.kickbulk.co/image/cache/catalog/ADDIDAS/YYEZY/BY9611/ADIDAS-ORIGINALS-YEEZY-BOOST-350-V2-GREEN-BY9611-kickbulk-for-sale-1-1100x1100.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Nike",
+      "name": "Off-White x Nike Dunk Low White Grey",
+      "price": "198000",
+      "src": "https://www.kickbulk.co/image/catalog/NIKE/DUNK-SB/DM1602-106/Off-White-Nike-Dunk-Low-The-50-White-Grey-DM1602-106-1.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Stussy",
+      "name": " Basic logo T-Shirts ",
+      "price": "40000 ",
+      "src": "https://cdn.shopify.com/s/files/1/0087/6193/3920/products/1904893_WHIT_1_ae5513bc-1746-4dd1-9dff-76980280a5ce_300x300.jpg?v=1658767149"
+    },
+    {
+      "id": 5,
+      "title": "Stussy",
+      "name": " Basic logo T-Shirts ",
+      "price": "40000",
+      "src": "https://cdn.shopify.com/s/files/1/0087/6193/3920/products/1904893_WHIT_1_ae5513bc-1746-4dd1-9dff-76980280a5ce_300x300.jpg?v=1658767149"
+    },
+    {
+      "id": 6,
+      "title": "Stussy",
+      "name": " Basic logo T-Shirts ",
+      "price": "40000",
+      "src": "https://cdn.shopify.com/s/files/1/0087/6193/3920/products/1904893_WHIT_1_ae5513bc-1746-4dd1-9dff-76980280a5ce_300x300.jpg?v=1658767149"
+    }
+  ],
+  "CartItems": [
+    {
+      "id": 2,
+      "title": "Adidas",
+      "name": "Yeezy Boost 350 V2 Core Black Green",
+      "price": "214000",
+      "src": "https://www.kickbulk.co/image/cache/catalog/ADDIDAS/YYEZY/BY9611/ADIDAS-ORIGINALS-YEEZY-BOOST-350-V2-GREEN-BY9611-kickbulk-for-sale-1-1100x1100.jpg"
+    },
+    {
+      "id": 1,
+      "title": "Nike",
+      "name": "Off-White x Air Jordan 1 Retro High OG 'Chicago",
+      "price": "256500",
+      "src": "https://www.kickbulk.co/image/cache/catalog/JORDAN-1/AA3834-101/NIKE-OFF-WHITE-X-AIR-JORDAN-1-CHICAGO-MENS-GS-AA3834-101-00-1100x1100.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Nike",
+      "name": "Off-White x Nike Dunk Low White Grey",
+      "price": "198000",
+      "src": "https://www.kickbulk.co/image/catalog/NIKE/DUNK-SB/DM1602-106/Off-White-Nike-Dunk-Low-The-50-White-Grey-DM1602-106-1.jpeg"
+    }
+  ]
+}
