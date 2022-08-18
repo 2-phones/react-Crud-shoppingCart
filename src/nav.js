@@ -1,10 +1,15 @@
 import { Headerstyle,Sidebarstyle } from "./style"
 import { FaShoppingBag } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 
-const Header = () =>{
+
+const Header = ({items}) =>{
     const navigate = useNavigate()
-
+    const [cartItems , setCartItems] = useState('');
+    useEffect( () => {
+        fetch('http://localhost:3333/CartItems').then(res => res.json()).then(data => setCartItems(data))
+    },[])
     return(
         <Headerstyle>
             <div className="container">
@@ -13,10 +18,10 @@ const Header = () =>{
                     <li>Shop</li>
                     <li>Style</li>
                     <li>About</li>
-                    <li></li>
                 </ul>
                 <div className="cart" onClick={ () => navigate('/cart')}>
-                    <FaShoppingBag/>
+                    <div className="icon"><FaShoppingBag/></div>
+                    <span className="chart-count">{cartItems.length}</span>
                 </div>
             </div>
         </Headerstyle>
