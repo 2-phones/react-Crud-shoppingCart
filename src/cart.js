@@ -57,7 +57,7 @@ const CartItems = () => {
                                         <p>{key + 1}</p>
                                         <img src={li.src}  width='10%'/>
                                         <p>{li.name}</p>
-                                        <input type="text" id="quantity" value={ items.filter(el => el.id )[key] } />
+                                        <input type="text" id="quantity"  value='1' />
                                         <div>{li.price.toString().replace(comma,",")}</div>
                                     </div>
                                 ) 

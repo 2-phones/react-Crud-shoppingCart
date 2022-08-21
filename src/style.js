@@ -4,9 +4,10 @@ const GlobalStyle = createGlobalStyle`
     :root{ 
         --color-black : black;
         --color-lightgrey : #bdbdbd;
+        --font--Nunito : 'Nunito', sans-serif;
         }
+        
 `
-
 const BodyStyle = styled.body`
     body{
         padding:0;
@@ -16,16 +17,19 @@ const BodyStyle = styled.body`
 const Headerstyle = styled.div `
 
     .container {
-        border: 1px solid black;
+        border: 1px solid var(--color-lightgrey);
         width: 100%;
         height: 100px;
         display: flex;
         align-items :center;
         justify-content : space-around;
+        font-size : 20px;
+        font-family: var(--font--Nunito);
     }
     .menu-box {
         list-style: none;
         display:flex;
+        cursor: pointer;
         
     }
     li {
@@ -55,7 +59,7 @@ const Headerstyle = styled.div `
 const Sidebarstyle = styled.div`
     .container {
         left:0;
-        border: 1px solid black;
+       border-right : 1px solid var(--color-lightgrey);
         width: 250px;
         height:100%;
 
