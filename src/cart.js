@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Header } from "./nav";
 import { CartStyle } from "./style";
 import useFetch from "./usefetch";
+import axios from "axios";
 
 
 const Cart = () => {
@@ -35,6 +36,15 @@ const CartItems = () => {
         }
         return total;
     }
+    /** 삭제기능 */
+    const itemDelete = (li) => { 
+        
+        axios(`http://localhost:3333/CartItems/${li.id}`,{
+            method:"delete",
+            data:li
+        })
+    }
+
     const {items} = useFetch(`http://localhost:3333/CartItems`);
     const payment = getpayment(); // 토탈가격 함수로 구할수있다.
     const comma = /\B(?=(\d{3})+(?!\d))/g;
@@ -58,6 +68,7 @@ const CartItems = () => {
                                         <img src={li.src}  width='10%'/>
                                         <p>{li.name}</p>
                                         <input type="text" id="quantity"  value='1' />
+                                        <p onClick={() => itemDelete(li)}>삭제</p>
                                         <div>{li.price.toString().replace(comma,",")}</div>
                                     </div>
                                 ) 
